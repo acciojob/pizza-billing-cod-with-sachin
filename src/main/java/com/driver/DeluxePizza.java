@@ -2,19 +2,19 @@ package com.driver;
 
 public class DeluxePizza extends Pizza {
 
-    private int totalBill=0;
     public DeluxePizza(Boolean isVeg) {
         super(isVeg);
-        if (isVeg == true) {
-
-            totalBill += getPrice();
-        }
+        addExtraCheese();
+        addExtraToppings();
 
     }
 
 
 
-        // your code goes here
+
+
+
+// your code goes here
 
 
 
