@@ -4,12 +4,17 @@ public class DeluxePizza extends Pizza {
 
     public DeluxePizza(Boolean isVeg) {
         super(isVeg);
-        addExtraCheese();
-        addExtraToppings();
+        setPrice(getPrice()+100);
+
+
 
     }
 
 
+    @Override
+    public void addExtraToppings(){
+        setPrice(getPrice() + 120);
+    }
 
 
 

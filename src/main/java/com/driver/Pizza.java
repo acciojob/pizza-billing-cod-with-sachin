@@ -11,8 +11,7 @@ public class Pizza {
 
     public Pizza(Boolean isVeg){
         this.isVeg = isVeg;
-        this.price=0;
-        this.bill="";
+
         // your code goes here
         if(isVeg==true )
         {
@@ -36,7 +35,9 @@ public class Pizza {
         if(!toppingsAdded) {
             price += 70;
        toppingsAdded=true;
+
         }
+
     }
     public void addTakeaway(){
         // your code goes here
